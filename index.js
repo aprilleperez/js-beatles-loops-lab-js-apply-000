@@ -28,7 +28,7 @@ function iLoveTheBeatles(numNeedToRun) {
   do {
     love.push("I love the Beatles!");
     i++;
-  } while (numNeedToRun < 15);
+  } while (i < numNeedToRun);
 
   // function increment() {
   //   i = i + 1;
