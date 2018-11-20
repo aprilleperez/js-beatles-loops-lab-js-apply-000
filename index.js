@@ -34,5 +34,5 @@ function iLoveTheBeatles(number) {
   //   i = i + 1;
   // }
 
-  return love + "I love the Beatles!";
+  return love;
 }
