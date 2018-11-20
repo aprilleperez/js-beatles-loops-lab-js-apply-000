@@ -21,14 +21,14 @@ function johnLennonFacts(facts) {
   return exclamation;
 }
 
-function iLoveTheBeatles(number) {
+function iLoveTheBeatles(numNeedToRun) {
   var love = [];
   var i = 0;
 
   do {
     love.push("I love the Beatles!");
     i++;
-  } while (i < number[i]);
+  } while (numNeedToRun < 15);
 
   // function increment() {
   //   i = i + 1;
