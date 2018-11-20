@@ -22,12 +22,13 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(number) {
-  var love = []
-  //var i = 0;
+  var love = [];
+  var i = 0;
 
   do {
-    love.push("I love the Beatles!")
-  } while (love < 15);
+    love.push("I love the Beatles!");
+    i++;
+  } while (i < 15);
 
   // function increment() {
   //   i = i + 1;
